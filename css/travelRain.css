@@ -1,0 +1,119 @@
+@media screen and (max-width:768px ){
+    header .dh ul li.cle{
+        display:none;
+    }
+    header .container{
+        padding:0;
+        margin:0;
+    }
+    header .container .dh{
+        padding:0;
+        margin:0;
+    }
+    header .dh ul{
+        background:#E14719;;
+    }
+    header .dh ul li .right{
+        display:block;
+        float:right;
+    }
+    header{
+        width: 100%;
+        background: #000;
+    }
+}
+@media screen and (max-width:992px ){
+    .content .left ul li .img{
+        padding:0;
+    }
+}
+@media screen and (max-width:1200px ){
+
+}
+@media screen and (max-width:1600px ){
+
+}
+body{
+    background:#ccc;
+}
+header{
+    width: 100%;
+    height: 45px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+header .dh{
+    height: 45px;
+    background:#000000;
+}
+header .dh ul{
+    height: 45px;
+    margin-bottom:0;
+}
+header .dh ul li{
+    height: 45px;
+    float:left;
+    text-align: center;
+    line-height: 45px;
+    color:#fff;
+    overflow: hidden;
+}
+header .dh ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+header .dh ul li:hover{
+    background:#E14719;
+}
+.content{
+    width: 100%;
+    background:#fff;
+}
+.content .left ul li .img img{
+    width: 100%;
+
+}
+.content .left  ul li .con h4{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.content .left  ul li .con p{
+    height: 40px;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+.content .center .con  p span{
+    float: right;
+}
+.content .right input{
+    padding:0;
+}
+.content .right input.two{
+    border: 0;
+    background:#000;
+    color:#fff;
+    font-size: 14px;
+    height:24px;
+}
+footer{
+    background:#000;
+}
+footer .container-fluid h3{
+    margin-top: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+footer .container-fluid h3 a{
+    color:rgba(255,255,255,0.8);
+}
+footer .container-fluid h3 a:hover{
+    color:rgba(255,255,255,1);
+    text-decoration: none;
+}

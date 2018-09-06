@@ -1,0 +1,181 @@
+@media screen and (max-width:768px ){
+    header .dh ul li.cle{
+        display:none;
+    }
+    header{
+        width: 100%;
+        background: #000;
+    }
+    header .container{
+        padding:0;
+        margin:0;
+    }
+    header .container .dh{
+        padding:0;
+        margin:0;
+    }
+    header .dh ul{
+        background:#E14719;;
+    }
+    header .dh ul li .right{
+         display:block;
+         float:right;
+    }
+    .banner .container{
+        padding:0;
+        margin:0;
+    }
+}
+@media screen and (max-width:992px ){
+
+}
+@media screen and (max-width:1200px ){
+
+}
+@media screen and (max-width:1600px ){
+
+}
+header{
+    width: 100%;
+    height: 45px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+header .dh{
+    height: 45px;
+    background:#000000;
+}
+header .dh ul{
+    height: 45px;
+    margin-bottom:0;
+}
+header .dh ul li{
+    height: 45px;
+    float:left;
+    text-align: center;
+    line-height: 45px;
+    color:#fff;
+    overflow: hidden;
+}
+header .dh ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+header .dh ul li:hover{
+    background:#E14719;
+}
+
+.swiper-container{
+    width: 100%;
+}
+.swiper-container img{
+    width: 100%;
+    height: auto;
+}
+
+main .brand .top{
+    margin-top: 20px;
+    background:#000;
+    height:40px;
+}
+main .brand .top .left{
+    float:left;
+    text-align: left;
+    line-height: 40px;
+    font-size: 20px;
+    color:#fff;
+}
+main .brand .top .right{
+    float:right;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color:#fff;
+}
+main .brand .container ul li{
+    margin-top: 20px;
+}
+main .brand .container ul li img{
+    width: 100%;
+}
+main .brand .container ul li hr{
+    margin:10px 0;
+}
+main .brand .container ul li ol li{
+    height:21px;
+    list-style: square;
+    padding:0;
+    margin:0;
+}
+main .brand .container ul li ol li a{
+    color:rgba(0,0,0,0.7);
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    display:block;
+}
+main .brand .container ul li ol li a:hover{
+    color:rgba(0,0,0,1);
+    text-decoration: none;
+}
+main .story .top{
+    margin-top: 20px;
+    background:#000;
+    height:40px;
+}
+main .story .top .left{
+    float:left;
+    text-align: left;
+    line-height: 40px;
+    font-size: 20px;
+    color:#fff;
+}
+main .story .top .right{
+    float:right;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color:#fff;
+}
+main .story .container ul li{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main .story .container ul li .img img{
+    width: 100%;
+}
+main .story .container ul li h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+main .story .container ul li p{
+    height:40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -Webkit-link-clamp:2;
+    -Webkit-box-orient:vertical;
+}
+
+footer{
+    /*background:#000;*/
+}
+footer .container h3{
+    margin-top: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+footer .container h3 a{
+    color:rgba(255,255,255,0.8);
+}
+footer .container h3 a:hover{
+    color:rgba(255,255,255,1);
+    text-decoration: none;
+}
+footer .container{
+    background: #000;
+}

@@ -1,0 +1,319 @@
+@media screen and (max-width:768px ){
+    header .dh ul li.no{
+        display:none;
+    }
+    header{
+        width: 100%;
+        background: #000;
+    }
+    footer{
+        background:#000;
+    }
+
+    footer h3{
+        display:none;
+    }
+    header .container{
+        padding:0;
+        margin:0;
+    }
+    header .dh ul{
+    background:#E14719;;
+    }
+    main .container ul li.two{
+        display:none;
+    }
+    header .dh ul li .right{
+        display:block;
+        float:right;
+    }
+}
+@media screen and (max-width:992px ){
+    footer h3{
+        display:none;
+    }
+
+}
+@media screen and (max-width:1200px ){
+
+}
+@media screen and (max-width:1600px ){
+
+}
+header{
+    width: 100%;
+    height: 45px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+body{
+    overflow-x: hidden;
+}
+header .dh{
+    height: 45px;
+    background:#000000;
+}
+header .dh ul{
+    height: 45px;
+    margin-bottom:0;
+}
+header .dh ul li{
+    height: 45px;
+    float:left;
+    text-align: center;
+    line-height: 45px;
+    color:#fff;
+    overflow: hidden;
+}
+header .dh ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+header .dh ul li:hover{
+     background:#E14719;
+ }
+
+/*banner*/
+.banner{
+    width: 100%;
+    padding-bottom: 34.8%;
+    height:0;
+    position: relative;
+}
+
+.banner  img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:100%;
+    top:0;
+}
+
+/*bannerBar*/
+.banner .bannerBar ul li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+
+/*bannerBth*/
+.banner .bannerBth .leftBth{
+    position: absolute;
+    left:0;
+    top:40%;
+    bottom:0;
+    margin:auto 0;
+}
+.banner .bannerBth .rightBth{
+    position: absolute;
+    top:40%;
+    bottom:0;
+    margin: auto 0 ;
+    right:0;
+}
+
+main{
+    margin-bottom:100px;
+}
+main .container ul{
+    overflow: hidden;
+}
+main .container ul li{
+    margin-top: 20px;
+}
+main .container ul li.one .top{
+    background:#ccc;
+    height: 95px;
+    padding:20px;
+}
+main .container ul li.one .top p{
+    font-size: 26px;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom:5px;
+}
+main .container ul li.one .top span{
+    font-size: 18px;
+    text-align: center;
+    display:block;
+}
+main .container ul li.one img{
+    width: 100%;
+}
+main .container ul li.two img{
+    width: 100%;
+}
+
+
+/*图游记*/
+main .goods1{
+    margin-top:56px;
+}
+main  .goods1 .top1{
+    margin-bottom: 30px;
+}
+main .top1 .line{
+    width: 100%;
+    height: 2px;
+    background:#000;
+    position:relative;
+}
+main .goods1 .top1 img{
+    position:absolute;
+    left:0;
+    right:0;
+    margin:0 auto;
+    top:-26px;
+}
+main .goods1 .container .bottom ul li:nth-child(1) p{
+    height:60px;
+    overflow: hidden;
+}
+main .goods1 .container .bottom ul li:nth-child(4) p{
+    height:60px;
+    overflow: hidden;
+}
+main .goods1 .container .bottom ul li:nth-child(6) p{
+    height:60px;
+    overflow: hidden;
+}
+main .goods1 .container .bottom ul li:nth-child(7) p{
+    height:60px;
+    overflow: hidden;
+}
+main .goods1 .container .bottom ul li img{
+    width:100%;
+    height: 100%;
+    background:#000;
+}
+main .goods1 .container .bottom ul li p{
+    height: 80px;
+    overflow: hidden;
+}
+main .goods2 .container ul li .content{
+    margin-top:30px;
+    padding:30px 40px 20px;
+}
+main .goods2 .container ul li .content ol li{
+    list-style: square;
+}
+main .goods2 .container  ul li:nth-child(2){
+    background:#e1e1e1;
+    padding:20px 30px 40px;
+}
+main .goods2 .container  ul li:nth-child(2) .top2{
+    overflow: hidden;
+}
+main .goods2 .container ul li:nth-child(2) .top2 h2{
+    margin-top: 25px;
+    float:left;
+}
+main .goods2 .container ul li:nth-child(2) .top2 .bth{
+    float:right;
+}
+main .goods2 .container ul li:nth-child(2) ul li{
+    overflow: hidden;
+}
+main .goods2 .container ul li:nth-child(2) ul li:nth-child(2){
+    padding:0;
+}
+main .goods2 .container ul li:nth-child(2) ul li .img img{
+    width: 100%;
+}
+main .goods2 .container ul li:nth-child(2) ul li .company h5{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    margin-top:0;
+}
+main .goods2 .container ul li:nth-child(2) ul li .company p{
+    height:35px;
+    overflow: hidden;
+    font-size: 12px;
+    color:#666;
+}
+main .goods2 .container ul li:nth-child(2) ul li .null{
+    height:30px;
+}
+main .goods2 .container ul li .content{
+    background:#e1e1e1;
+}
+main .goods2 .container ul li h2{
+    font-size: 24px;
+}
+main .goods2 .container ul li .content ol li a{
+    color:#000;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+main .goods2 .container ul li .content ol li{
+    height: 38px;
+    margin:0;
+}
+main .goods2 .container ul li .content ol li:nth-child(2){
+    padding:0;
+}
+main .goods2 .container ul li .bth{
+    width: 96px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background:#000;
+    margin-top: 20px;
+}
+main .goods2 .container ul li .bth:hover{
+    background:#555555;
+}
+main .goods2 .container ul li .bth a{
+    font-size: 14px;
+    color:#fff;
+}
+main .goods2 .container ul li .bth a:hover{
+    text-decoration: none;
+}
+
+/*底部*/
+footer{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+    background:#fff;
+}
+footer ul li{
+    text-align: center;
+    line-height:50px;
+}
+footer ul li a{
+    color:#000;
+}
+footer ul li:hover{
+    background:#000;
+}
+footer ul li:hover a{
+    color:#fff;
+}
+footer ul li a:hover{
+    text-decoration: none;
+}
+footer .top3{
+    background:#000;
+}
+footer h3{
+    text-align: center;
+    line-height:50px;
+    margin-bottom: 0;
+    position: absolute;
+    top:0;
+    left:0;
+}
+footer h3 a{
+    color:rgba(255,255,255,0.7);
+}
+footer h3:hover a{
+    color:#fff;
+    text-decoration: none;
+}
