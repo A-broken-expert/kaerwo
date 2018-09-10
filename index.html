@@ -6,11 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="http://file.tuweia.cn/M00/38/BB/CoPea1VIouuACQZPAAAQvt_30io777.ico" rel="shortcut icon">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_824741_by1jz9xzck.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/swiper-4.3.5.min.css">
     <link rel="stylesheet" href="css/home.css">
     <script src="js/animate.js"></script>
+    <script src="js/swiper-4.3.5.min.js"></script>
     <script src="js/home.js"></script>
 </head>
 <body>
@@ -19,45 +22,44 @@
 <div class="container-fluid">
     <div class="dh col-xs-12">
         <ul>
-            <li class=" col-xs-12 col-sm-2 col-sm-offset-1 "><a href="">首页HOME</a> <div class="right"> ></div></li>
-            <li class="no col-xs-12 col-sm-2 col-offset-1"><a href="Activity.html">品牌活动</a></li>
-            <li class="no col-xs-12 col-sm-2 col-offset-1"><a href="">产品显示</a></li>
-            <li class="no col-xs-12 col-sm-2 col-offset-1"><a href="Photography.html">摄影系列</a></li>
-            <li class="no col-xs-12 col-sm-2 col-offset-1"><a href="">品牌足迹</a></li>
+            <a href="index.html"><li class="    col-xs-12 col-sm-2 col-sm-offset-1 active">首页HOME <div class="right"> ></div></li></a>
+            <a href="Activity.html"><li class="cle col-xs-12 col-sm-2 col-offset-1">品牌活动 <div class="right"> ></div></li></a>
+            <a href="Trave.html"><li class="cle col-xs-12 col-sm-2 col-offset-1">产品显示 <div class="right"> ></div></li></a>
+            <a href="Photography.html"><li class="cle col-xs-12 col-sm-2 col-offset-1">摄影系列 <div class="right"> ></div></li></a>
+            <a href=""><li class="cle col-xs-12 col-sm-2 col-offset-1">品牌足迹 <div class="right"> ></div></li></a>
         </ul>
     </div>
 </div>
 </header>
 
 <!--banner图-->
-<div class="banner">
-    <!--轮播图片-->
-        <img src="http://file.tuweia.cn/M00/38/0F/CoPea1VAngWAZ_3tAALXVwOgJ1w971.jpg?imageMogr2/thumbnail/1349x9999%3E/quality/90" alt="图片加载失败">
-        <img src="http://file.tuweia.cn/M00/47/78/CmkV21WSSuyAZaObAAXBAb3EdRo190.jpg?imageMogr2/thumbnail/1135x9999%3E/quality/90" alt="">
-        <img src="http://file.tuweia.cn/M00/45/5E/CmkV21WM7suAZOrsAAa8hfcWLq0001.jpg?imageMogr2/thumbnail/1135x9999%3E/quality/90" alt="">
-        <img src="http://file.tuweia.cn/M00/45/5E/CmkV21WM7syAbRcJAATIYdTYTZ4587.jpg?imageMogr2/thumbnail/1135x9999%3E/quality/90" alt="">
 
-    <!--轮播点-->
-        <div class="bannerBar">
-            <ul>
-                <li class="action"></li>
-                <li ></li>
-                <li ></li>
-                <li ></li>
-            </ul>
+<div class="swiper-container col-xs-12">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="http://file.tuweia.cn/M00/38/0F/CoPea1VAngWAZ_3tAALXVwOgJ1w971.jpg?imageMogr2/thumbnail/1349x9999%3E/quality/90" alt="图片加载失败">
         </div>
-
-    <!--轮播按键-->
-        <div class="bannerBth">
-            <div class="leftBth">
-                <i class="iconfont"><i class="icon-icon_arrow_left"></i></i>
-            </div>
-            <div class="rightBth">
-                <i class="iconfont"><i class="icon-icon_arrow_right"></i></i>
-            </div>
+        <div class="swiper-slide">
+            <img src="http://file.tuweia.cn/M00/47/78/CmkV21WSSuyAZaObAAXBAb3EdRo190.jpg?imageMogr2/thumbnail/1135x9999%3E/quality/90" alt="">
         </div>
+        <div class="swiper-slide">
+            <img src="http://file.tuweia.cn/M00/45/5E/CmkV21WM7suAZOrsAAa8hfcWLq0001.jpg?imageMogr2/thumbnail/1135x9999%3E/quality/90" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="http://file.tuweia.cn/M00/45/5E/CmkV21WM7syAbRcJAATIYdTYTZ4587.jpg?imageMogr2/thumbnail/1135x9999%3E/quality/90" alt="">
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
 
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- 如果需要滚动条 -->
+    <!--<div class="swiper-scrollbar"></div>-->
 </div>
+
 <!--主体-->
 <main>
     <div class="container">
@@ -68,7 +70,7 @@
                     <span>心之净土,朝圣者的灵魂归处</span>
                 </div>
                 <div class="bottom">
-                    <img src="http://file.tuweia.cn/M00/38/97/CoPea1VIHeOABMZvAAIeOdB-yUI983.jpg" alt="">
+                    <a href="snow.html"><img src="http://file.tuweia.cn/M00/38/97/CoPea1VIHeOABMZvAAIeOdB-yUI983.jpg" alt=""></a>
                 </div>
             </li>
             <li class=" one col-xs-12 col-sm-6">
@@ -77,7 +79,7 @@
                     <span>2015和喀尔沃寻迹心中的香格里拉</span>
                 </div>
                 <div class="bottom">
-                    <img src="http://file.tuweia.cn/M00/38/D3/CoPea1VJtAaASCrAAAKSoM7fHkQ675.jpg?imageMogr2/thumbnail/593x9999%3E/quality/90" alt="">
+                    <a href=""><img src="http://file.tuweia.cn/M00/38/D3/CoPea1VJtAaASCrAAAKSoM7fHkQ675.jpg?imageMogr2/thumbnail/593x9999%3E/quality/90" alt=""></a>
                 </div>
             </li>
             <li class=" two col-xs-12 col-sm-4">
@@ -93,74 +95,73 @@
     </div>
         <div class="goods1">
             <div class="top1">
-                <div class="line"> <img src="http://file.tuweia.cn/M00/10/05/CoPea1SICkeATvHPAAAQVjGGeUw526.jpg" alt=""></div>
+                <div class="line"><img src="http://file.tuweia.cn/M00/10/05/CoPea1SICkeATvHPAAAQVjGGeUw526.jpg" alt=""></div>
             </div>
             <div class="container">
             <div class="bottom">
                 <ul>
                     <li class="col-xs-12 col-sm-6">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFCAYGivAAGeWmdciwQ658.jpg?imageMogr2/thumbnail/730x9999%3E/quality/90" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFCAYGivAAGeWmdciwQ658.jpg?imageMogr2/thumbnail/730x9999%3E/quality/90" alt=""></div>
                     <p>如梦如幻，一瞬之光</p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFGARZHQAAGPRFZDfRA782.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt="">
-                        <p>
-                            梅里雪山<br>
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFGARZHQAAGPRFZDfRA782.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt=""></div>
+                        <p>梅里雪山<br>
                             梅里雪山的阴晴雨雪都在转瞬间，无论哪一种天气，都让人心生敬畏。
                         </p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFGARA-mAAF5O3EtV1g433.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFGARA-mAAF5O3EtV1g433.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt=""></div>
                         <p>冰湖 <br>
                             徒步几十公里来到极地，诚心搭起玛尼堆，我并不懂她的含义，但是不禁默默祈祷。</p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFGADi8xAAF2Jnpw63o326.jpg" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFGADi8xAAF2Jnpw63o326.jpg" alt=""></div>
                         <p>
                             梅里雪山<br>
                             沐浴阳光，林中小憩，享受慢节奏的旅途。</p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFGATGuNAAGMo72wtw0836.jpg" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFGATGuNAAGMo72wtw0836.jpg" alt=""></div>
                         <p>雨崩<br>
                             阳光来得恰到好处，错落的枝叶也美得不可思议。</p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFOAWTe6AAJcBtZbdTw335.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFOAWTe6AAJcBtZbdTw335.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt=""></div>
                         <p>雨崩<br>
                             冰雪融化汇成小溪，纯净之音透过流水声传出。
                         </p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFGALieOAAFI-nuFWsE612.jpg" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFGALieOAAFI-nuFWsE612.jpg" alt=""></div>
                         <p>
                             笑农大本营藏在雪山与丛林深处的魔法屋  <br></p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFOATrKRAAFzDxpwyp0476.jpg" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFOATrKRAAFzDxpwyp0476.jpg" alt=""></div>
                         <p>晨曦的流水，冰凉清透。
                             <br></p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFOACZ2qAAI4aTY7vGY514.jpg" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFOACZ2qAAI4aTY7vGY514.jpg" alt=""></div>
                         <p>雨崩<br>
                             沐浴阳光，林中小憩，享受慢节奏的旅途。</p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFSAcf78AANtqMeOMo4648.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFSAcf78AANtqMeOMo4648.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt=""></div>
                         <p>为了一幅油画而来，却不小心成为了画的一部分<br></p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFSAar80AAF_X8OGkLw594.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFSAar80AAF_X8OGkLw594.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt=""></div>
                         <p>月亮湾<br>
                             金沙江如卧龙般潜在绵延的喀什地貌里，岩石里的沟壑在灼眼的阳光下更显苍劲</p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFSAYktUAAGwSNCZ1gg201.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFSAYktUAAGwSNCZ1gg201.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt=""></div>
                         <p>经过依拉草原，夕阳洒在草原上，也只是一瞬息的事。<br></p>
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFSAFhfoAAD51VBh_iY450.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt="">
+                        <div class="img"><div class="cover"></div><img src="http://file.tuweia.cn/M00/38/0E/CoPea1VAnFSAFhfoAAD51VBh_iY450.jpg?imageMogr2/thumbnail/358x9999%3E/quality/90" alt=""></div>
                         <p>白马雪山<br>
                             行走在空气稀薄地带，为了你，翻山越岭。
                         </p>
@@ -194,7 +195,7 @@
                 <li class="col-xs-12 col-sm-4">
                     <div class="top2">
                     <h2>行者志</h2>
-                    <div class="bth"><a href="">查看更多</a></div>
+                    <div class="bth"><a href="Trave.html">查看更多</a></div>
                     </div>
                     <ul>
                         <li>
@@ -243,7 +244,7 @@
                             <li><a href="">冰湖初见</a></li>
                         </ol>
                         <div class="bth">
-                            <a href="">查看更多</a>
+                            <a href="Track.html">查看更多</a>
                         </div>
                     </div>
                 </li>
@@ -263,5 +264,34 @@
         <!--<h3><a href="">开启你的征服之旅</a></h3>-->
     <!--</div>-->
 </footer>
+
+
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        autoplay: {
+            delay: 1000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+        direction: 'horizontal',
+        loop: true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // 如果需要滚动条
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+
+    })
+</script>
 </body>
 </html>

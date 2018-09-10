@@ -1,0 +1,108 @@
+@media screen and (max-width:768px ){
+    header .dh ul li.cle{
+        display:none;
+    }
+    header .container{
+        padding:0;
+        margin:0;
+    }
+    header .container .dh{
+        padding:0;
+        margin:0;
+    }
+    header .dh ul{
+        background:#E14719;;
+    }
+    header .dh ul li .right{
+        display:block;
+        float:right;
+    }
+    header{
+        width: 100%;
+        background: #000;
+    }
+}
+@media screen and (max-width:992px ){
+
+}
+@media screen and (max-width:1200px ){
+
+}
+@media screen and (max-width:1600px ){
+
+}
+body{
+    background:#ccc;
+}
+/*头部导航*/
+header{
+    width: 100%;
+    height: 45px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+header .dh{
+    height: 45px;
+    background:#000000;
+}
+header .dh ul{
+    height: 45px;
+    margin-bottom:0;
+}
+header .dh ul li{
+    height: 45px;
+    float:left;
+    text-align: center;
+    line-height: 45px;
+
+    overflow: hidden;
+}
+header .dh ul  a{
+    color:#fff;
+    text-decoration: none;
+}
+header .dh ul li:hover{
+    background:#E14719;
+}
+.goods1{
+    background:#fff;
+}
+.goods1 .img{
+    width: 100%;
+}
+.goods1 .img img{
+    width: 100%;
+}
+.goods1 h2{
+    text-align: center;
+    font-size: 26px;
+    color:#E14719;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+.goods1 .content{
+    text-align: center;
+    font-size: 14px;
+}
+.goods1 .content p{
+margin-top: 10px;
+}
+.goods1 footer{
+    width: 100%;
+    height: 45px;
+    background:#000;
+    color:#fff;
+    text-align: center;
+
+}
+.goods1 footer h3{
+    margin:0;
+    padding:0;
+    line-height: 45px;
+}
+.goods1 footer a{
+    color:#fff;
+}

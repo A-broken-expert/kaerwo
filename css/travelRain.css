@@ -86,7 +86,7 @@ header .dh ul li:hover{
     display:-webkit-box;
     -webkit-line-clamp:4;
     -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
+    Text-overflow: ellipsis;
     margin-bottom: 0;
 }
 .content .center .con  p span{
@@ -104,16 +104,17 @@ header .dh ul li:hover{
 }
 footer{
     background:#000;
+    height:45px;
 }
-footer .container-fluid h3{
+footer  h3{
     margin-top: 10px;
     text-align: center;
-    line-height: 25px;
+    line-height: 45px;
 }
-footer .container-fluid h3 a{
+footer  h3 a{
     color:rgba(255,255,255,0.8);
 }
-footer .container-fluid h3 a:hover{
+footer  h3 a:hover{
     color:rgba(255,255,255,1);
     text-decoration: none;
 }

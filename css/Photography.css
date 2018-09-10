@@ -21,6 +21,15 @@
         width: 100%;
         background: #000;
     }
+    .swiper-container .swiper-pagination{
+        display:none;
+    }
+    .swiper-container .swiper-button-next{
+        display:none;
+    }
+    .swiper-container .swiper-button-prev{
+        display:none;
+    }
 }
 @media screen and (max-width:992px ){
 
@@ -39,7 +48,9 @@ header{
     margin-bottom: 20px;
 
 }
-
+header .dh ul li.active{
+    background: #E14719;
+}
 header .dh{
     height: 45px;
     background:#000000;
@@ -56,7 +67,7 @@ header .dh ul li{
 
     overflow: hidden;
 }
-header .dh ul li a{
+header .dh ul  a{
     color:#fff;
     text-decoration: none;
 }
@@ -185,17 +196,17 @@ header .dh ul li:hover{
 
 footer{
     background:#000;
-    margin-top: 20px;
+    height:45px;
 }
-footer .container-fluid h3{
+footer  h3{
     margin-top: 10px;
     text-align: center;
-    line-height: 25px;
+    line-height: 45px;
 }
-footer .container-fluid h3 a{
+footer  h3 a{
     color:rgba(255,255,255,0.8);
 }
-footer .container-fluid h3 a:hover{
+footer  h3 a:hover{
     color:rgba(255,255,255,1);
     text-decoration: none;
 }
