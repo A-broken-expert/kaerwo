@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_839593_1228f5huw8fj.css">
     <link href="http://file.tuweia.cn/M00/38/BB/CoPea1VIouuACQZPAAAQvt_30io777.ico" rel="shortcut icon">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_824741_by1jz9xzck.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -14,9 +15,60 @@
     <link rel="stylesheet" href="css/home.css">
     <script src="js/animate.js"></script>
     <script src="js/swiper-4.3.5.min.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
+
+<!--右边小窗口-->
+<div class="contentOne">
+    <div class="top">
+        <i class="iconfont"><i class="icon-icon2"></i></i>
+    </div>
+    <div class="bottom">
+        <i class="iconfont"><i class="icon-fenxiang"></i></i>
+    </div>
+
+</div>
+<div class="cardOne">
+    <div class="g1">分享 <i class="iconfont"><i class="icon-cuowu"></i></i></div>
+    <div class="g2">
+        <ul>
+            <li>
+                <i class="iconfont"><i class="icon-qqkongjian"></i></i>
+            </li>
+            <li>
+                <i class="iconfont"><i class="icon-qqkongjian"></i></i>
+            </li>
+            <li>
+                <i class="iconfont"><i class="icon-qqkongjian"></i></i>
+            </li>
+            <li>
+                <i class="iconfont"><i class="icon-qqkongjian"></i></i>
+            </li>
+            <li>
+                <i class="iconfont"><i class="icon-weixin"></i></i>
+            </li>
+            <li>
+                <i class="iconfont"><i class="icon-weixin"></i></i>
+            </li>
+            <li>
+                <i class="iconfont"><i class="icon-weixin"></i></i>
+            </li>
+            <li>
+                <i class="iconfont"><i class="icon-weixin"></i></i>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    let topOne=document.querySelector(".contentOne .top");
+    let xiangOne=document.querySelector(".contentOne .bottom");
+    let cardOne=document.querySelector(".cardOne");
+    let errOne=document.querySelector(".cardOne .g1 i");
+    console.log(errOne);
+    move(topOne,xiangOne,cardOne,errOne);
+
+</script>
 <!--头部导航栏-->
 <header>
 <div class="container-fluid">
@@ -291,7 +343,7 @@
             el: '.swiper-scrollbar',
         },
 
-    })
+    });
 </script>
 </body>
 </html>

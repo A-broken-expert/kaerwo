@@ -49,6 +49,87 @@
 @media screen and (max-width:1600px ){
 
 }
+.contentOne{
+    position: fixed;
+    right:10px;
+    bottom:50px;
+    width: 28px;
+    height: 57px;
+    background: #000;
+    z-index: 999;
+}
+.cardOne{
+    position:fixed;
+    right: 0;
+    bottom:-270px;
+    z-index: 999;
+    resize: none;
+    height: 260px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.8);
+}
+.cardOne .g1{
+    width: 320px;
+    height: 40px;
+    background: rgba(0,0,0,1);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.cardOne .g1 i{
+    display: block;
+    float: right;
+    margin-right: 5px;
+}
+.cardOne .g2{
+    width: 320px;
+    height: 200px;
+    background: rgba(0,0,0,0);
+}
+.cardOne .g2 ul li i{
+    font-size: 50px;
+    color: #fff;
+    line-height: 50px;
+}
+.cardOne .g2 ul{
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.cardOne .g2 ul li{
+    width: 80px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardOne .g2 ul li i{
+    display: block;
+    width: 50px;
+    height: 50px;
+    /*background: #fff;*/
+}
+.contentOne .top{
+    width: 28px;
+    height: 28px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    cursor: pointer;
+}
+.contentOne .bottom{
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    /*font-size: 30px;*/
+    color: #fff;
+    cursor: pointer;
+}
 header{
     width: 100%;
     height: 45px;
